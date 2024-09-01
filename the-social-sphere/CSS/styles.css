@@ -1,0 +1,140 @@
+/* Tipografía de toda la página */
+* {font-family: Montserrat;}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo del body */
+body {
+    background-image: url("../Image/Fondo\ 1.webp");
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilo para el header */
+header {
+    background-image: linear-gradient(135deg,  #13315e, #494f52, #13315e);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin: 0 0 160px 0;
+}
+
+/* Estilo del Titulo */
+h1 {
+    margin: 10px 0 0.3em 0;
+    font-size: 65px;
+    text-shadow: -5px 4px 5px rgba(29, 29, 29, 0.788);
+}
+
+/*          Estilos de los elementos del nav            */
+
+/* Estilo para el ul dentro del nav */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para los li dentro del ul */
+li {
+    display: inline;
+    margin: 0 15px;
+}
+
+/* Estilo para los enlaces dentro de los li */
+#redirecciones {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilo para los enlaces al pasar el cursor */
+#redirecciones:hover { text-decoration: underline }
+
+
+
+
+/* Para colocar las tarjetas unas al lado de las otras */
+#contenedor { display: flex }
+
+/*          Tarjetas            */
+.format-card {
+    width: 350px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin-left: 50px;
+    box-shadow: -10px 10px 40px rgba(43, 43, 43, 0.856);
+    margin-bottom: 15em;
+    height: 550px;
+}
+
+.image-card {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    padding: 0;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 40px rgba(29, 29, 29, 0.788);
+}
+
+.title-card {
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    font-style: normal;
+    box-sizing: border-box;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    padding: 0;
+    text-shadow: -4px 3px 5px rgba(29, 29, 29, 0.788);
+}
+
+.text-card {
+    color: aliceblue;
+    padding: 0 15px 20px 15px;
+    box-sizing: border-box;
+    text-align: justify;
+    font-size: 15px;
+    margin-top: 5px;
+
+}
+span{
+    background-color: rgba(255, 255, 255, 0.521);
+    border-radius: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+
+
+/* Colores de las Tarjetas */
+#facebook{background-image: linear-gradient(135deg,#3c9ab3, #025cd1, #3c69c4);}
+
+#instagram{background-image: linear-gradient(135deg, #F58529, #DD2A7B, #8134AF, #515BD4);}
+
+#whatsapp{background-image: linear-gradient(135deg, #25D366, #128C7E);
+margin-right: 50px;}
+
+#x{background-image: linear-gradient(135deg, #276beb, #282ab4, #2e373f);}
+
+
+/* Estilo del pie de pagina */
+footer {
+    background-image: linear-gradient(135deg,  #13315e, #494f52, #13315e);
+    color: #fff;
+    text-align: center;
+    padding: 2em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="Image/Logo del sitio web.png">
+    <link rel="stylesheet" href="CSS/styles_formulario.css">
+    <link rel="stylesheet" href="CSS/tipografia.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <h1>En esta sección podras ingresar tus datos personales</h1>
+
+    <form class="formulario">
+        
+        <h2>Formulario</h2>
+        <fieldset>
+            <legend>Informacion basica  </legend>  
+            <label class="lista-formulario">Nombres
+                <input class="formulario-input" type="text" name="Nombres" placeholder="Ej. Juan" title="Ingresa tus nombres" required>
+            </label>
+
+            <label class="lista-formulario">Apellidos
+                <input class="formulario-input" type="text" name="Apellidos" placeholder="Ej. Perez" title="Ingresa tus apellidos" required>
+            </label>
+        
+            <label class="lista-formulario">Fecha de nacimiento
+                <input id= "fecha" type="date" name="FNacimiento" title="Ingresa tu fecha de nacimiento" required>
+            </label>
+        
+            <label class="lista-formulario">Género
+                <select name="Genero">
+                    <option value="hombre"> Hombre </option>
+                    <option value="mujer"> Mujer </option>
+                    <option value="otro"> Prefiero no decirlo </option>
+                </select>
+            </label>
+            <label class="lista-formulario">Tipo de Usuario
+                <input id='tipo-usuario' list="user">
+                <datalist id="user">
+                    <option value="Visitante">(Nivel Basico)</option>
+                    <option value="Colaborador">(Ayudante en el sitio)</option>
+                    <option value="Administrador">(Encargado del sitio)</option>
+                </datalist>
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Informacion de contacto</legend>  
+            <label class="lista-formulario">Correo electrónico
+                <input class="formulario-input" type="email" name="Email" placeholder="Ej. juanp@gmail.com" title="Ingresa tu correo" required>
+            </label>
+
+            <label class="lista-formulario">Numero de telefono (Opcional)
+                <input class="formulario-input" type="tel" name="Telefono" placeholder="Ej. 123456789">
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Informacion Adicional</legend> 
+            <label class="lista-formulario">Color favorito (Opcional)
+                <input id="boton-color" type="color" name="ColorFavorito">
+            </label>
+            
+            <label class="lista-formulario"> Comentario (Opcional)
+                <textarea rows="6" name="Comentario" placeholder="Escribe tu comentario" title="Maximo 200 caracteres" maxlength="200"></textarea>
+            </label>
+        </fieldset>
+        
+        <!-- Botón enviar -->  
+        <button class= "Boton-de-enviar efecto-mouse">Enviar</button>
+    </form>
+
+    <!-- Enlaces -->
+    <footer>
+        <ul class="punto">
+            <li><a href="index.html">Página de Inicio</a></li>
+            <li><a href="creador.html">Sobre el creador</a></li>
+            <li><a href="despedida.html">Despedida</a></li>
+        </ul>
+        
+        <p>&copy; 2024 The Social Sphere. Todos los derechos reservados.</p>
+        <p>Contacto: migueljtu@.gmail.com</p>
+    </footer>
+</body>
+</html>

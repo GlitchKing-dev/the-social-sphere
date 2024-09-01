@@ -1,0 +1,192 @@
+/* Tipografía de toda la página */
+* {font-family: Montserrat;}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo del body */
+body {
+    background-color: rgb(92, 104, 122);
+    background-image: linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.61)), url("../Image/Fondo 3.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilo del Titulo */
+h1 {
+    color: aliceblue;
+    text-align: center;
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 45px;
+    font-weight: 700;
+    background: rgb(52, 97, 141);
+    border-radius: 6px;
+    width: 950px;
+    box-sizing: border-box;
+    padding: 10px 5px;
+    text-shadow: -4px 3px 5px rgba(29, 29, 29, 0.788);
+    box-shadow: 0px 0px 40px 12px rgb(29, 29, 29);
+    background-image: linear-gradient(135deg,  #13315e, #494f52, #13315e);
+}
+
+
+/*          Estilo del Formulario           */
+form {
+    max-width: 500px;
+    margin: auto;
+    padding: 1% 2.5% 1% 2.5%;
+    border-radius: 6px;
+    box-sizing: border-box;
+    background-image: linear-gradient(to bottom, #0c4688, #275aa7);
+    box-shadow: 0px 0px 40px rgba(29, 29, 29, 0.788);
+    margin-bottom: 8em;
+}
+
+/* Estilo del Titulo del Formulario */
+h2 {
+    padding: 0;
+    color: aliceblue;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    box-sizing: border-box;
+    text-shadow: -4px 3px 5px rgba(54, 54, 54, 0.527);
+}
+
+/* Estilo de las divisiones */
+fieldset {
+    border-radius: 1px;
+}
+
+
+/* Estilo de las listas del formulario */
+.lista-formulario{
+    display: block; /* Asegura que cada label sea un bloque, ocupando toda la línea */
+    margin-bottom: 20px;
+    color: aliceblue;
+}
+
+/* Estilo de los Inputs del formulario*/
+.formulario-input {
+    background: rgb(254, 255, 255);
+    padding: 7px;
+    width: 100%; /* Asegura que el input ocupe el 100% del espacio disponible */
+    border-radius: 6px;
+    border: 1px solid rgba(75, 74, 74, 0.733);
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+/* Estilo del Select */
+select, #tipo-usuario {
+    width: 100%; /* Hace que el select ocupe todo el ancho disponible */
+    padding: 7px;
+    border-radius: 6px;
+    margin-top: 5px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgba(75, 74, 74, 0.733);
+    box-sizing: border-box;
+    color: rgba(75, 74, 74, 0.733);
+}
+
+/* Estilo de las opciones del Select*/
+
+option {color: rgba(65, 65, 65, 0.836);}
+
+
+/* Estilo del input de la fecha */
+#fecha {
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid rgba(75, 74, 74, 0.733);
+    width: 100%; /* Asegura que el input de fecha ocupe el 100% del espacio disponible */
+    font-size: 15px;
+    padding: 7px;
+    box-sizing: border-box;
+    color: rgba(75, 74, 74, 0.733);
+}
+
+/* Estilo del input de color favorito */
+#boton-color {
+    border-radius: 5px;
+    border: 1px solid rgba(75, 74, 74, 0.733);
+    width: 55px;
+    height: 30px;
+    box-sizing: border-box;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+/* Estilo de la caja de comentario (textarea) */
+textarea {
+    min-width: 100%; /* Asegura que el textarea ocupe el 100% del espacio disponible */
+    max-width: 100%;
+    margin-top: 5px;
+    resize: none;
+    box-sizing: border-box;
+    font-family: Montserrat;
+    font-size: 14px;
+    border: 1px solid rgba(75, 74, 74, 0.733);
+    border-radius: 6px;
+    background-color: rgb(254, 255, 255);
+}
+
+/* Estilo del Botón de enviar */
+.Boton-de-enviar {
+    color: rgba(75, 74, 74, 0.733);
+    background-color: aliceblue;
+    padding: 6px;
+    border: 1px solid rgba(75, 74, 74, 0.733);
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 700;
+    box-sizing: border-box;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+/* Efecto del mouse al pasar por encima */
+.efecto-mouse:hover {
+    background-color: rgba(75, 74, 74, 0.733);
+    color: aliceblue;
+}
+
+
+
+/* Estilo del pie de pagina */
+footer {
+    background-image: linear-gradient(135deg,  #13315e, #494f52, #13315e);
+    color: #fff;
+    text-align: center;
+    padding: 2em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+}
+
+/* Quitar el punto de la lista */
+.punto { 
+    text-align: justify;
+    list-style-type: none;
+    padding: 0 0 0 4em;
+    margin: 0;
+}
+
+/* links*/
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: aliceblue;
+    line-height: 3;
+}
+
+/* Efecto del mouse al pasar por encima */
+a:hover {text-decoration: underline;}
