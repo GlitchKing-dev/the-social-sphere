@@ -8,7 +8,7 @@ html, body {
 
 /* Estilo del body */
 body {
-    background-image: url("../Image/Fondo\ 1.webp");
+    background-image: url("../Images/background.webp");
     background-size: cover;
     background-attachment: fixed;
     display: flex;
